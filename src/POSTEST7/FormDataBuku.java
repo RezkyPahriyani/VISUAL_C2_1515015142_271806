@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package POSTEST7;
+package POSTEST6;
 
 /**
  *
@@ -11,7 +11,6 @@ package POSTEST7;
  */
 import java.sql.*;
 import javax.swing.JOptionPane;
-import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 
 
@@ -337,7 +336,7 @@ public class FormDataBuku extends javax.swing.JFrame {
     private void BSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BSaveActionPerformed
         // TODO add your handling code here:
         /*mendeklarasikan variable yang akan di butuhkan untuk menjadi parameter di fungsi tambahdata*/
-        String id= TBuku.getValueAt(baris, 0).toString();
+        
         String judul = TFJudul.getText();
         String penulis = CBPenulis.getSelectedItem().toString();
         String harga = TFHarga.getText();
